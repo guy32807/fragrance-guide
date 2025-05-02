@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import SEOHead from '../components/SEOHead';
 import AffiliateLink from '../components/AffiliateLink';
 import { blogPosts } from '../data/BlogPosts';
+import { getImagePath } from '../constants/paths';
+import OptimizedImage from '../components/OptimizedImage';
 
 const HeroSection = styled.section`
   text-align: center;
@@ -124,7 +126,7 @@ const HomePage: React.FC = () => {
         <BlogGrid>
           {blogPosts.map((post) => (
             <BlogCard key={post.id}>
-              <BlogImage src={post.imageUrl} alt={post.imageAlt} />
+              <OptimizedImage src={post.imageUrl} alt={post.imageAlt} />
               <BlogContent>
                 <BlogTitle>{post.title}</BlogTitle>
                 <BlogExcerpt>{post.excerpt}</BlogExcerpt>

@@ -64,7 +64,7 @@ This scent recreates the memory of a walk along a sandy beach with notes of berg
 Ready to find your perfect summer scent? [Browse the full collection at FragranceShop.com](${AFFILIATE_LINK}&source=blog-end-banner) and enjoy exclusive online discounts on premium fragrances.
     `,
     tags: ['summer fragrances', 'perfume', 'cologne', 'seasonal scents'],
-    imageUrl: '/images/summer-fragrances.jpg',
+    imageUrl: 'images/summer-fragrances.jpg',
     imageAlt: 'Collection of summer fragrance bottles arranged on a beach backdrop',
     createdAt: new Date('2025-04-15'),
     updatedAt: new Date('2025-04-15'),
@@ -154,7 +154,7 @@ If you're just starting your fragrance journey, these versatile options work wel
 Ready to find your signature scent? [Browse premium fragrances at FragranceShop.com](${AFFILIATE_LINK}&source=blog-conclusion) with their expert guidance and satisfaction guarantee.
     `,
     tags: ['signature scent', 'fragrance selection', 'perfume guide', 'fragrance families'],
-    imageUrl: '/images/signature-scent.jpg',
+    imageUrl: 'images/signature-scent.jpg',
     imageAlt: 'Elegant perfume bottles arranged on a vanity with testing strips',
     createdAt: new Date('2025-04-20'),
     updatedAt: new Date('2025-04-22'),

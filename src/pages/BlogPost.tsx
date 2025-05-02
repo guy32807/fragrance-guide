@@ -8,6 +8,9 @@ import ReactMarkdown from 'react-markdown';
 import { Helmet } from 'react-helmet';
 import { AFFILIATE_LINK } from '../constants/links';
 import { getImagePath } from '../constants/paths';
+import ResponsiveImage from '../components/ResponsiveImage';
+import SimpleImage from '../components/SimpleImage';
+import OptimizedImage from '../components/OptimizedImage';
 
 const BlogContainer = styled.article`
   max-width: 800px;
@@ -114,7 +117,7 @@ const BlogPost: React.FC = () => {
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
-    image: `https://yourusername.github.io/fragrance-guide${post.imageUrl}`,
+    image: `https://guy32807.github.io/fragrance-guide/${post.imageUrl}`,
     author: {
       '@type': 'Person',
       name: 'Fragrance Guide',
@@ -165,7 +168,7 @@ const BlogPost: React.FC = () => {
           </BlogMeta>
         </BlogHeader>
         
-        <BlogImage src={getImagePath(post.imageUrl)} alt={post.imageAlt} />
+        <OptimizedImage src={post.imageUrl} alt={post.imageAlt} />
         
         <BlogContent>
           <ReactMarkdown

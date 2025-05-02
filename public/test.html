@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Test</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .test-image {
+      margin: 20px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    img {
+      max-width: 300px;
+      display: block;
+      margin: 10px 0;
+      border: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <h1>Image Test Page</h1>
+  
+  <div class="test-image">
+    <h2>Test 1: Direct Path</h2>
+    <img src="images/summer-fragrances.jpg" alt="Summer Fragrances">
+    <p>Path: <code>images/summer-fragrances.jpg</code></p>
+  </div>
+  
+  <script>
+    // Log page info
+    console.log('Page location:', window.location.href);
+    document.write('<p>Page URL: ' + window.location.href + '</p>');
+  </script>
+</body>
+</html>
