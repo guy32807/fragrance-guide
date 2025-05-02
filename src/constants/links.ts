@@ -1,0 +1,1 @@
+export const AFFILIATE_LINK = "https://www.kqzyfj.com/click-9083409-16942202";
