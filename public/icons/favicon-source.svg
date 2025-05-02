@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
+  <rect width="64" height="64" fill="#3a5a40" rx="8" ry="8"/>
+  <!-- Perfume bottle -->
+  <rect x="22" y="15" width="20" height="8" rx="2" ry="2" fill="#f5f5f5"/>
+  <rect x="19" y="22" width="26" height="30" rx="5" ry="5" fill="#f5f5f5"/>
+  <!-- Spray nozzle -->
+  <rect x="29" y="10" width="6" height="5" rx="1" ry="1" fill="#f5f5f5"/>
+  <!-- Sprayer top -->
+  <rect x="31" y="8" width="2" height="2" rx="1" ry="1" fill="#f5f5f5"/>
+  <!-- Liquid inside -->
+  <rect x="22" y="32" width="20" height="17" rx="3" ry="3" fill="#ffd700" opacity="0.8"/>
+</svg>

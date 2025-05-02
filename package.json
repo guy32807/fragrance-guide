@@ -1,7 +1,8 @@
 {
-  "name": "fragrance-affiliate",
+  "name": "fragrance-guide",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://guy32807.github.io/fragrance-guide",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -29,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +53,8 @@
     ]
   },
   "devDependencies": {
-    "@types/react-helmet": "^6.1.11"
+    "@types/react-helmet": "^6.1.11",
+    "favicons": "^7.2.0",
+    "gh-pages": "^6.3.0"
   }
 }

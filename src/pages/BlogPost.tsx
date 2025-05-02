@@ -7,6 +7,7 @@ import AffiliateLink from '../components/AffiliateLink';
 import ReactMarkdown from 'react-markdown';
 import { Helmet } from 'react-helmet';
 import { AFFILIATE_LINK } from '../constants/links';
+import { getImagePath } from '../constants/paths';
 
 const BlogContainer = styled.article`
   max-width: 800px;
@@ -113,7 +114,7 @@ const BlogPost: React.FC = () => {
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
-    image: `https://yourdomain.com${post.imageUrl}`,
+    image: `https://yourusername.github.io/fragrance-guide${post.imageUrl}`,
     author: {
       '@type': 'Person',
       name: 'Fragrance Guide',
@@ -164,7 +165,7 @@ const BlogPost: React.FC = () => {
           </BlogMeta>
         </BlogHeader>
         
-        <BlogImage src={post.imageUrl} alt={post.imageAlt} />
+        <BlogImage src={getImagePath(post.imageUrl)} alt={post.imageAlt} />
         
         <BlogContent>
           <ReactMarkdown
@@ -236,7 +237,7 @@ const BlogPost: React.FC = () => {
             <BlogGrid>
               {relatedPosts.map(relatedPost => (
                 <BlogCard key={relatedPost.id}>
-                  <BlogCardImage src={relatedPost.imageUrl} alt={relatedPost.imageAlt} />
+                  <BlogCardImage src={getImagePath(relatedPost.imageUrl)} alt={relatedPost.imageAlt} />
                   <BlogCardContent>
                     <BlogCardTitle>{relatedPost.title}</BlogCardTitle>
                     <BlogCardExcerpt>{relatedPost.excerpt}</BlogCardExcerpt>
