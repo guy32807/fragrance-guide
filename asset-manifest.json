@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fragrance-guide/static/css/main.e6c13ad2.css",
-    "main.js": "/fragrance-guide/static/js/main.1fbf1adf.js",
-    "static/js/453.05e63745.chunk.js": "/fragrance-guide/static/js/453.05e63745.chunk.js",
-    "index.html": "/fragrance-guide/index.html",
-    "main.e6c13ad2.css.map": "/fragrance-guide/static/css/main.e6c13ad2.css.map",
-    "main.1fbf1adf.js.map": "/fragrance-guide/static/js/main.1fbf1adf.js.map",
-    "453.05e63745.chunk.js.map": "/fragrance-guide/static/js/453.05e63745.chunk.js.map"
+    "main.css": "https://guy32807.github.io/fragrance-guide/static/css/main.e6c13ad2.css",
+    "main.js": "https://guy32807.github.io/fragrance-guide/static/js/main.c3785368.js",
+    "static/js/453.05e63745.chunk.js": "https://guy32807.github.io/fragrance-guide/static/js/453.05e63745.chunk.js",
+    "index.html": "https://guy32807.github.io/fragrance-guide/index.html",
+    "main.e6c13ad2.css.map": "https://guy32807.github.io/fragrance-guide/static/css/main.e6c13ad2.css.map",
+    "main.c3785368.js.map": "https://guy32807.github.io/fragrance-guide/static/js/main.c3785368.js.map",
+    "453.05e63745.chunk.js.map": "https://guy32807.github.io/fragrance-guide/static/js/453.05e63745.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.1fbf1adf.js"
+    "static/js/main.c3785368.js"
   ]
 }
